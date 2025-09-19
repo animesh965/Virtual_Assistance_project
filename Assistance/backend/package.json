@@ -2,11 +2,14 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon index.js"
   },
   "author": "Animesh",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5"
+  }
 }
